@@ -704,7 +704,7 @@ footer {
         flex-direction: column;
         gap: 0.8rem;
     }
-    
+
     .nav-links {
         gap: 1rem;
         flex-wrap: wrap;
@@ -713,7 +713,7 @@ footer {
 
     .hero-bg-video {
         /* Mobile video optimization */
-        object-position: center; 
+        object-position: center;
     }
 
     .hero-content {
@@ -722,7 +722,8 @@ footer {
     }
 
     .hero-logo {
-        margin-bottom: -1.5rem !important; /* Reset huge negative margin on mobile */
+        margin-bottom: -1.5rem !important;
+        /* Reset huge negative margin on mobile */
         width: 90%;
         max-width: 320px;
     }
@@ -732,6 +733,7 @@ footer {
         margin-bottom: 2rem;
         padding: 0 1rem;
     }
+
     .team-members {
         grid-template-columns: 1fr;
     }
