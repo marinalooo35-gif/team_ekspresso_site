@@ -700,11 +700,38 @@ footer {
     }
 
     .nav-container {
-        padding: 1.5rem;
+        padding: 1rem;
         flex-direction: column;
+        gap: 0.8rem;
+    }
+    
+    .nav-links {
         gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
+    .hero-bg-video {
+        /* Mobile video optimization */
+        object-position: center; 
+    }
+
+    .hero-content {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .hero-logo {
+        margin-bottom: -1.5rem !important; /* Reset huge negative margin on mobile */
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+    }
     .team-members {
         grid-template-columns: 1fr;
     }
@@ -722,8 +749,10 @@ footer {
     }
 
     .hero-cta {
-        padding: 0.9rem 2.5rem;
+        padding: 0.8rem 2rem;
         font-size: 1rem;
+        width: auto;
+        min-width: 200px;
     }
 
     .final-cta-section h2 {
