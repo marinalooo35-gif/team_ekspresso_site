@@ -43,8 +43,8 @@ img {
     transition: width 0.1s ease;
 }
 
-/* ========== HERO SECTION ========== */
-.hero {
+/* ========== HERO & VIDEO SECTIONS ========== */
+.hero, .video-section {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -196,33 +196,31 @@ img {
     z-index: 2;
 }
 
-.video-section {
-    position: relative;
-    overflow: hidden;
-    min-height: 80vh; /* Set a substantial height for atmospheric sections */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.section-bg-video {
+.section-bg-video, .hero-bg-video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: 1;
+    z-index: 0;
 }
 
-.section-overlay {
+.section-overlay, .hero-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4);
     z-index: 1;
+}
+
+.section-overlay {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.hero-overlay {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
 }
 
 .video-section .container {
