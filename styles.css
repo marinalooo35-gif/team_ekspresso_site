@@ -681,6 +681,11 @@ footer {
     border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
+.footer-authors {
+    margin-bottom: 0.5rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
 .footer-brand {
     font-weight: 700;
     font-size: 1.1rem;
