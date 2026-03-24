@@ -82,6 +82,15 @@ img {
     backface-visibility: hidden;
 }
 
+/* Specific adjustment for 2nd and 3rd videos on desktop */
+.section-bg-video {
+    min-width: 0;
+    min-height: 0;
+    width: 85%;
+    height: 85%;
+    border-radius: 12px;
+}
+
 .hero-overlay {
     position: absolute;
     top: 0;
