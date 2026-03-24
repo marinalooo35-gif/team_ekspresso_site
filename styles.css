@@ -331,7 +331,7 @@ img {
 
 /* ========== CAROUSEL GALLERY ========== */
 .gallery-carousel-section {
-    background-color: #fafafa;
+    background-color: #000;
 }
 
 .gallery-carousel-section h2 {
@@ -463,7 +463,7 @@ img {
 
 /* ========== BUY SECTION ========== */
 .buy-section {
-    background-color: #1a1a1a;
+    background-color: #000;
     color: #fff;
 }
 
