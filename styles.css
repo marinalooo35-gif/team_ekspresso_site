@@ -788,13 +788,14 @@ footer {
         font-size: 0.85rem !important;
     }
 
-    .hero {
+    .hero, .video-section {
         background-color: #000;
         height: 100vh;
-        /* Ensure full viewport height */
+        width: 100%;
+        overflow: hidden;
     }
 
-    .hero-bg-video {
+    .hero-bg-video, .section-bg-video {
         width: 100% !important;
         height: 100% !important;
         min-width: 0 !important;
