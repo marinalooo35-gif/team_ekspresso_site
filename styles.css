@@ -771,7 +771,6 @@ footer {
     position: relative;
     width: 85%;
     height: 85%;
-    border-radius: 12px;
     overflow: hidden;
     display: flex;
     align-items: center;
